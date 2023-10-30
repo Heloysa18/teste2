@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;}
+    body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;height: 100px;
+    background: rgb(194, 96, 194);
+    justify-content: center;align-items: center;
+}
+
+.logo{
+    flex: 20%;
+    border: 1px solid rgb(194, 96, 194);
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25,02px;
+}
+
+.menu{
+    flex: 70%;
+    border: 1px solid rgb(194, 96, 194);
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 255);
+    border-top: 4px solid rgb(155, 141, 155);
+}
+
+#botao{
+    background: rgb(228, 203, 226);
+    padding: 10px 25px;
+    color: rgb(194, 96, 194);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background: gray;
+    color: white
+}
+
+.principal{
+    display: flex;
+    flex-flow: row wrap;height: 700px;
+    background: #ee98ee;
+}
+
+.texto{
+    margin-left: 10%;
+    flex: 20%;
+    border: 1px solid #ee98ee;
+}
+
+.texto h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+
+.imagem{
+    display: flex;
+    flex-flow: row wrap;margin-right: 10%;
+    flex: 40%;
+    border: 1px solid #ee98ee;justify-content: center;align-items: center;
+}
+
+texto p{
+    color: rgb(194, 96, 194);
+}
+
+.botaosobre{
+    background: rgb(160, 7, 160);
+    padding: 10px;
+    color: rgb(219, 167, 230);
+    text-decoration: none;
+}
+
+.botaosobre:hover{
+    background: gray;
+}
